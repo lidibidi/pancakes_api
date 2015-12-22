@@ -1,0 +1,21 @@
+<h1>{{title}}</h1>
+<p>Brought to you by {{authors}}! This API was last updated on {{date}}.</p>
+<p>
+  <em>Current Version: </em>{{version}}
+</p>
+
+<section id='pancake-listing'>
+  <h2>Pancakes Listing</h2>
+</section>
+
+<script type="text/template" id='recipe-template'>
+<article>
+  <strong>Name</strong>: <%= Name %><br>
+  <strong>Ingredients</strong>: <%= Ingredients %><br>
+  <strong>Syrup</strong>: <%= Syrup %><br>
+  <strong>Instructions</strong>: <%= Instructions %><br>
+  <strong>Deliciousness</strong>: <%= Deliciousness %><br>
+</article>
+</script>
+
+<script src="/javascripts/app.js"></script>
